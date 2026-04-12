@@ -1,0 +1,10 @@
+h1{
+    font-family: verdana, Arial; /*additional fonts are back ups */
+}
+p{
+    font-family: "lucida console", "courier new"; /*quotes are used if a font has a space */
+    font-size: 1em; /*1 em is the standard size can go up more also use px*/
+    font-weight: bold;
+    font-style: italic;
+}
+/*can use google fonts to find fonts that I want to use */

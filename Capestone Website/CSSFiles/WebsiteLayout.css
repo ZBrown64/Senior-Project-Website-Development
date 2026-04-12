@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box; 
+    /*When we calcualte the width, factor in the padding */
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color:grey;
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: darkgray;
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both; /*clearing float for the footer */
+    background-color:grey;
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width: 600px){
+    /*if the width for a screen is 600px or below we can change some css properties*/
+    aside, section, article{
+        width: 100%;
+    /*will switch everything to a mobile version of a page and move top to bottom */
+    }
+}

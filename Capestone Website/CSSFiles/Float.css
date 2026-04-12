@@ -1,0 +1,18 @@
+body{
+    border: 3px solid;
+    display: flow-root;
+}
+/*second image will overflow outside of the container. 
+Flow-root will keep anything that is floating in the container*/
+
+#img1{
+    float: left;
+    margin-right: 10px;
+    /*text is going to fill the right of image cause it is floating left*/
+    /*if set to float:right image will float to the right and text will fit around it to the left*/
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+}

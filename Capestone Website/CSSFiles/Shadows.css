@@ -1,0 +1,12 @@
+h1{
+    text-shadow: 6px 3px 5px red, -3px -3px 5px red; 
+    /*horizontal and vertical offset and blur (optional), color 
+    Can have multiple shadows by , sectioning*/
+
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 228, 228);
+    box-shadow: 3px 3px 5px;
+}

@@ -1,0 +1,16 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+span{
+    background-color: blue;
+    display:inline;
+    /*span only takes up the needed space unlike div that takes up
+    entire space. width and height dont apply to an inline element
+    setting span as a block will make it act like div
+    inline-block is like inline except we can also apply a width and a height*/
+    
+
+}

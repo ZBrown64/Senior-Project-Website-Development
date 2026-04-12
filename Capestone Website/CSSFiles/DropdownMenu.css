@@ -1,0 +1,34 @@
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{ /*with our dropdown menu class i will select any buttons*/
+    background-color: #7fb0db;
+    color: white; /*text color */
+    padding: 10px 15px; /*10 px by 15 px*/
+    border: none;
+    cursor: pointer; /*hover over button cursor is pointer */
+
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position:absolute;
+    background-color: rgb(225, 225, 225);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.537);
+
+}
+.dropdown:hover .content{ /*dropwdown class, apply hover pseudo class with our content class */
+    display: block;
+}
+.dropdown:hover button{ /*changing color of buttom when hovered */
+    background-color:rgb(234, 222, 222);
+}
+.dropdown a:hover{ /*take dropdown class, any anchor elements when we hover */
+    background-color: rgb(75, 75, 75);
+}

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box; /*will take border and padding into consideration when doing height and width */
+}
+.container{
+    background-color:grey;
+    height: 100vh;
+}
+.box{
+    background-color: white;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 50%;
+
+
+    /* if auto is used the width / height will be calculated automatically
+    but they will take as much rooom as possible
+    50% will take up 50% of our viewpoint but is still taking up the room
+    next to it because it is a div element, if float is used it elemantes this 
+    if border isnt too big and there is available space could use padding.
+    */ 
+}

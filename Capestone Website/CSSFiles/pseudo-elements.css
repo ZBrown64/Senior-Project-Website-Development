@@ -1,0 +1,29 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    color: green;
+    background-color: grey;
+    /*for anything selected by the mouse. text is green background it grey when selected*/
+}
+#fruit li::before{
+    content: "👌";
+    /*before any list item add a checkmark */
+}
+#apple::after{
+   content: "🍎";
+}
+#orange::after{
+   content: "🍊";
+}
+#banana::after{
+   content: "🍌";
+}
+#fruit li::marker{
+    content: "✔️";
+    color :green;
+}

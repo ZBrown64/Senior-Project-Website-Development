@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: red;
+    order: 1;
+    /*order: -1; would be at the beginning */
+}
+#box2{
+    background-color: yellow;
+    /*align-self: center;*/
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: blue;
+}
+/*flex-direction: row-reverse; reverses the box. 1 will now be on the righthand
+side followed by 2,3,4
+flex-direction: column puts the boxes into a column or even column-reverse
+to put 4 on top instead of 1. 
+flex direction by default is set to row
+Justfy content sets the alignment on the main axis 
+by default it is justify-content: flext-start;
+*flex-end would justify conent at the end;
+*justify-content: center; centers the boxes
+*justify-content: space-between; makes a space between the boxes
+the space changes as the window changes. 
+*justify-content: space-around area around the content is also included.
+*justify-content: space-evenly; 
+*cross axis is the y axis of our document 
+*align-items is used for the cross axis. fles-start is the default
+*align-items: flex-end; will move content to the bottom
+*align-items: center; will place in the middle
+*align-items: baseline; the text will be aligned
+*flex-wrap: wrap; will wrap items if there is not enough space 
+so items aren't squished together. 
+*flex-wrap is also used by another property called align-content
+*align-content: flex-start; will remove the space between the rows 
+*flex-end
+*flex-center
+*space-evenly
+*space-between; 
+*column-gap: 1em;
+*row-gap: 1em; both on their own

@@ -1,0 +1,13 @@
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+    
+}
+/*Overflows example: without overflow text may flow out of the div box 
+Overflow: visible states that if any inner elements will overflow, allow it to do so
+Overflow: hidden states any content that will overflow will be hidden
+Overflow: clip used intandam with the overflow-clip-margin: 13px will decide
+how much of the content displays or overflows outside of the box
+overflow: scroll box will contain a scroll bar to view the content that overflows
+overflow auto: will remove the scroll bar until you need it*/

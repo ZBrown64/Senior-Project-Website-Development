@@ -1,0 +1,19 @@
+body{
+    margin: 0px; 
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: red;
+    margin: auto;
+}
+#box2{
+    background-color:blue;
+}
+
+/*margin auto will take up as much space as possible in a certain direction*/
+/*margin auto without a directon like margin-right will center the box. 

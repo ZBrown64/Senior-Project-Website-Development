@@ -1,0 +1,33 @@
+a:link{
+    color: rgb(110, 110, 245); /*color of the link */
+}
+a:hover{
+    color:aqua; /*changes color and size when hovered */
+    font-size: 1.1em;
+}
+a:active{ /*changes color and size when clicked */
+    color:blue;
+    font-size: 1.1em;
+}
+a:visited{ /*changes color after link is visited */
+    color: grey;
+}
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: grey;
+}
+li:nth-child(3){ 
+    background-color:yellow;
+}
+/*nth-child() selects a child. 1 picks the first, 2 second, odd, even, 3n (every third element), 4n. 
+3n +1 (start at beginning 1, 4, 7) 3n+2 (2,5,8). can place a variable in there with javascript */
+#greeting p{
+    background-color: blue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{ /*handy for creating drop down menus */
+    display:block;
+}

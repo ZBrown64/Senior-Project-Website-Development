@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: steps(5);
+}
+/*#box:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+}
+*/
+@keyframes slideLeft{
+    from{transform: translateX(300%)}
+}
+@keyframes slideRight{
+    to{transform: translateX(300%)}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%)}
+}
+@keyframes slideDown{
+    to{transform: translateY(300%)}
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360deg)}
+}
+@keyframes grow{
+    50%{transform: scale(2,2)}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5)}
+}
+@keyframes fade{
+    50%{opacity: 1}
+}
+@keyframes colorChange{
+    0%{background-color: red}
+    20%{background-color: orange}
+    40%{background-color: yellow}
+    60%{background-color: green}
+    80%{background-color: blue}
+    100%{background-color: purple}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow}
+}
+/*from ends it at the original postion to puts in a different spot 
+*/

@@ -1,0 +1,23 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+/* When position is relative you can move the element top, bottom, left right,
+If used top: 100px it pushes element down 100px releative to where it normall is
+positiion: releative;
+top: 100px;
+left: 100px;
+
+Since box2 is contained within box1, box1 is its nearest ancestor
+If box1 is moved box2 will still remain in the corner of box 1*/

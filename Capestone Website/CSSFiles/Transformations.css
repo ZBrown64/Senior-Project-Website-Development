@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: greenyellow;
+
+    transform: translateX(100%) rotateZ(90deg) scale(0.5);
+}
+/*TranslateY for the y axis 
+transalte by itself does it for both
+translate(0,0);
+transform: translateX(50px);
+*transform: rotateX(45deg);
+transform: rotatez(45deg);
+*transform: scaleX(0.25);
+transformL scale(2,2); 200% 1 is 100% shrinks or enlarges
+*transform: skewX(45deg);
+transform: skew(0, 0);
+*can also apply to classes. 
+*can also applies to images 
+
+
+*/
